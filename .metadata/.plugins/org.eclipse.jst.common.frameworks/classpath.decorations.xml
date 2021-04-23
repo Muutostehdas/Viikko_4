@@ -1,0 +1,7 @@
+<classpath>
+  <container id="Myynti!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="C:/Private/AMKoodari/Java2/Viikko_4/Myynti/WebContent/WEB-INF/lib/sqlite-jdbc-3.20.1.jar">
+      <source-attachment-path>/Myynti/WebContent/WEB-INF/lib</source-attachment-path>
+    </entry>
+  </container>
+</classpath>
