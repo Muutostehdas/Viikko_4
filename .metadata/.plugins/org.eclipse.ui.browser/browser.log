@@ -3,3 +3,13 @@ huhtik. 23, 2021 09:42:17.72 NEW SESSION
 huhtik. 23, 2021 09:42:17.72 
 huhtik. 23, 2021 09:42:17.73 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 huhtik. 23, 2021 09:42:17.73 
+
+huhtik. 23, 2021 21:06:34.525 NEW SESSION
+huhtik. 23, 2021 21:06:34.525 
+huhtik. 23, 2021 21:06:34.525 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 23, 2021 21:06:34.525 
+
+huhtik. 25, 2021 10:32:41.673 NEW SESSION
+huhtik. 25, 2021 10:32:41.673 
+huhtik. 25, 2021 10:32:41.680 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 25, 2021 10:32:41.682 

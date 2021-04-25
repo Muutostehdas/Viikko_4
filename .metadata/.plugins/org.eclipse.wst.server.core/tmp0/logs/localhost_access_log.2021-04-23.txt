@@ -95,3 +95,5 @@
 127.0.0.1 - - [23/Apr/2021:20:27:31 +0300] "GET /Myynti/listaaasiakkaat.jsp HTTP/1.1" 200 1715
 127.0.0.1 - - [23/Apr/2021:20:27:31 +0300] "GET /favicon.ico HTTP/1.1" 404 762
 127.0.0.1 - - [23/Apr/2021:20:27:31 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 334
+127.0.0.1 - - [23/Apr/2021:21:16:33 +0300] "GET /Myynti/munrepo.html HTTP/1.1" 200 225
+127.0.0.1 - - [23/Apr/2021:21:29:10 +0300] "GET /Myynti/munrepo.html HTTP/1.1" 200 214
