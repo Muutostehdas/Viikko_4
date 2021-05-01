@@ -1,0 +1,15 @@
+127.0.0.1 - - [26/Apr/2021:21:16:00 +0300] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [26/Apr/2021:21:16:01 +0300] "GET /Myynti/listaaasiakkaat.jsp HTTP/1.1" 200 2041
+127.0.0.1 - - [26/Apr/2021:21:16:02 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 334
+127.0.0.1 - - [26/Apr/2021:21:16:29 +0300] "GET /Myynti/asiakkaat HTTP/1.1" 500 1350
+127.0.0.1 - - [26/Apr/2021:21:16:36 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 334
+127.0.0.1 - - [26/Apr/2021:21:16:48 +0300] "GET /Myynti/asiakkaat HTTP/1.1" 500 1350
+127.0.0.1 - - [26/Apr/2021:21:16:53 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 334
+127.0.0.1 - - [26/Apr/2021:21:17:28 +0300] "GET /Myynti/asiakkaat/lai HTTP/1.1" 200 122
+127.0.0.1 - - [26/Apr/2021:21:18:51 +0300] "GET /Myynti/asiakkaat/listaaasiakkaat.jsp HTTP/1.1" 200 18
+127.0.0.1 - - [26/Apr/2021:21:19:11 +0300] "GET /Myynti/asiakkaat/listaaasiakkaat.jsp HTTP/1.1" 200 18
+127.0.0.1 - - [26/Apr/2021:21:19:19 +0300] "GET /Myynti/asiakkaat/listaaasiakkaat.jsp HTTP/1.1" 200 18
+127.0.0.1 - - [26/Apr/2021:21:19:34 +0300] "GET /Myynti/listaaasiakkaat.jsp HTTP/1.1" 200 2041
+127.0.0.1 - - [26/Apr/2021:21:19:34 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 334
+127.0.0.1 - - [26/Apr/2021:21:19:56 +0300] "GET /Myynti/asiakkaat/lai HTTP/1.1" 200 122
+127.0.0.1 - - [26/Apr/2021:21:20:01 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 334

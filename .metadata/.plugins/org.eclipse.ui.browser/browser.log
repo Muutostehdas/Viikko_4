@@ -13,3 +13,42 @@ huhtik. 25, 2021 10:32:41.673 NEW SESSION
 huhtik. 25, 2021 10:32:41.673 
 huhtik. 25, 2021 10:32:41.680 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 huhtik. 25, 2021 10:32:41.682 
+huhtik. 25, 2021 11:57:41.226 
+huhtik. 25, 2021 11:57:41.227 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 25, 2021 11:57:41.228 
+
+huhtik. 26, 2021 22:10:15.169 NEW SESSION
+huhtik. 26, 2021 22:10:15.169 
+huhtik. 26, 2021 22:10:15.172 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 26, 2021 22:10:15.174 
+
+huhtik. 29, 2021 20:29:33.389 NEW SESSION
+huhtik. 29, 2021 20:29:33.389 
+huhtik. 29, 2021 20:29:33.390 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 29, 2021 20:29:33.390 
+huhtik. 29, 2021 20:33:51.474 
+huhtik. 29, 2021 20:33:51.476 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 29, 2021 20:33:51.478 
+huhtik. 29, 2021 21:09:43.796 
+huhtik. 29, 2021 21:09:43.797 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 29, 2021 21:09:43.798 
+
+huhtik. 29, 2021 22:24:56.884 NEW SESSION
+huhtik. 29, 2021 22:24:56.884 [27644:20868:0429/222456.884:ERROR:device_event_log_impl.cc(214)] [22:24:56.884] USB: usb_device_handle_win.cc:1054 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+huhtik. 29, 2021 22:24:56.886 [27644:20868:0429/222456.885:ERROR:device_event_log_impl.cc(214)] [22:24:56.885] USB: usb_device_handle_win.cc:1054 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+huhtik. 29, 2021 23:06:48.922 NEW SESSION
+huhtik. 29, 2021 23:06:48.922 
+huhtik. 29, 2021 23:06:48.922 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 29, 2021 23:06:48.923 
+huhtik. 29, 2021 23:57:42.963 
+huhtik. 29, 2021 23:57:42.963 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 29, 2021 23:57:42.964 
+huhtik. 30, 2021 24:18:42.33 
+huhtik. 30, 2021 24:18:42.36 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+huhtik. 30, 2021 24:18:42.39 
+
+toukok. 01, 2021 09:37:24.636 NEW SESSION
+toukok. 01, 2021 09:37:24.636 
+toukok. 01, 2021 09:37:24.637 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 01, 2021 09:37:24.637 

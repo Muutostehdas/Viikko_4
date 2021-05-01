@@ -4,39 +4,24 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <title>eta4 - listaa asiakkaat</title>
-<style>
-.oikealle {
-	text-align: right;
-}
-
-table {
-	font-family: arial, sans-serif;
-	border-collapse: collapse;
-	width: 800px;
-}
-
-td, th {
-	border: 1px solid black;
-	text-align: left;
-	padding: 10px;
-}
-
-
-</style>
 </head>
 <body>
 
 	<table id="listaus">
 		<thead>
-			<tr style="background-color:powderblue">
+			<tr>
+				<th colspan= "4" class ="oikealle"><span id="uusiAsiakas">Lisää uusi asiakas</span></th>
+			</tr>
+			
+			<tr>
 				<th class="oikealle">Hakusana:</th>
 				<th colspan="2"><input type="text" id="hakusana"></th>
 				<th><input type="button" value="hae" id="hakunappi"></th>
 			</tr>
-			<tr style="background-color:#dddddd">
+			<tr>
 				<th >Asiakastunnus</th>
 				<th>Etunimi</th>
 				<th>Sukunimi</th>
@@ -50,6 +35,9 @@ td, th {
 	</table>
 	<script>
 		$(document).ready(function() {
+			$("#uusiAsiakas").click(function() {
+				document.location="lisaaasiakas.jsp";
+			});
 
 			haeAsiakkaat();
 			$("#hakunappi").click(function() {

@@ -6,9 +6,9 @@ INDEX VERSION 1.131+C:\Private\AMKoodari\Java2\Viikko_4\.metadata\.plugins\org.e
 1225945153.index
 1032921032.index
 896096930.index
-18531479.index
-526755295.index
 4201595568.index
+526755295.index
+18531479.index
 1095657095.index
 2852836315.index
 1702892651.index
@@ -22,8 +22,8 @@ INDEX VERSION 1.131+C:\Private\AMKoodari\Java2\Viikko_4\.metadata\.plugins\org.e
 2952249288.index
 2731036972.index
 3379011935.index
-1974574781.index
 3545524670.index
+1974574781.index
 2683744821.index
 1152775869.index
 2216991080.index
