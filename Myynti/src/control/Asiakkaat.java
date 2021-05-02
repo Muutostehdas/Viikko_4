@@ -50,9 +50,9 @@ public class Asiakkaat extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		Dao dao = new Dao();			
 		if(dao.lisaaAsiakas(asiakas)){ //metodi palauttaa true/false
-			out.println("{\"response\":1}");  //Auton lis‰‰minen onnistui {"response":1}
+			out.println("{\"response\":1}");  //Asiakkaan lis‰‰minen onnistui {"response":1}
 		}else{
-			out.println("{\"response\":0}");  //Auton lis‰‰minen ep‰onnistui {"response":0}
+			out.println("{\"response\":0}");  //Asiakkaan lis‰‰minen ep‰onnistui {"response":0}
 		}		
 	}
 
@@ -64,6 +64,20 @@ public class Asiakkaat extends HttpServlet {
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		System.out.println("Asiakkaat.doDelete()");
+		String pathInfo = request.getPathInfo();	//haetaan kutsun polkutiedot, esim. /8 (asiakas_id)		
+		System.out.println("polku: "+pathInfo);
+		String poistettavaAsiakas_id = pathInfo.replace("/", "");
+		int asiakas_id = Integer.parseInt(poistettavaAsiakas_id);   //muunnos String to Int
+		response.setContentType("application/json");
+		PrintWriter out = response.getWriter();
+		Dao dao = new Dao();			
+		if(dao.poistaAsiakas(asiakas_id)){ //metodi palauttaa true/false
+			out.println("{\"response\":1}");  //Asiakkkaan poistaminen onnistui {"response":1}
+		}else{
+			out.println("{\"response\":0}");  //Asiakkaan poistaminen ep‰onnistui {"response":0}
+		}	
 	}
+
+	
 
 }

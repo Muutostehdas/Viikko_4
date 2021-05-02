@@ -52,3 +52,39 @@ toukok. 01, 2021 09:37:24.636 NEW SESSION
 toukok. 01, 2021 09:37:24.636 
 toukok. 01, 2021 09:37:24.637 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 toukok. 01, 2021 09:37:24.637 
+toukok. 01, 2021 10:39:06.208 
+toukok. 01, 2021 10:39:06.209 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 01, 2021 10:39:06.209 
+toukok. 01, 2021 11:31:03.438 
+toukok. 01, 2021 11:31:03.442 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 01, 2021 11:31:03.446 
+toukok. 01, 2021 11:39:32.886 
+toukok. 01, 2021 11:39:32.889 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 01, 2021 11:39:32.891 
+toukok. 01, 2021 11:44:44.94 _create_dc_and_bitmap: The operation completed successfully.
+toukok. 01, 2021 11:44:44.96 
+toukok. 01, 2021 11:44:44.98 _create_dc_and_bitmap: The handle is invalid.
+toukok. 01, 2021 11:44:44.100 
+toukok. 01, 2021 11:44:44.100 _create_dc_and_bitmap: The handle is invalid.
+toukok. 01, 2021 11:44:44.101 
+toukok. 01, 2021 11:44:44.101 _create_dc_and_bitmap: The handle is invalid.
+toukok. 01, 2021 11:44:44.101 
+toukok. 01, 2021 11:44:44.102 _create_dc_and_bitmap: The handle is invalid.
+toukok. 01, 2021 11:44:44.102 
+
+toukok. 01, 2021 20:56:11.673 NEW SESSION
+toukok. 01, 2021 20:56:11.673 
+toukok. 01, 2021 20:56:11.674 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 01, 2021 20:56:11.674 
+toukok. 01, 2021 21:01:03.194 
+toukok. 01, 2021 21:01:03.195 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 01, 2021 21:01:03.196 
+toukok. 01, 2021 21:26:09.588 
+toukok. 01, 2021 21:26:09.588 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 01, 2021 21:26:09.588 
+toukok. 01, 2021 22:19:03.15 
+toukok. 01, 2021 22:19:03.16 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 01, 2021 22:19:03.16 
+toukok. 02, 2021 24:15:58.344 
+toukok. 02, 2021 24:15:58.347 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 02, 2021 24:15:58.350 
