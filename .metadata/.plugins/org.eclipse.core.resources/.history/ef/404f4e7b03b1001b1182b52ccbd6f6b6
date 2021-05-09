@@ -1,0 +1,36 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
+import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
+
+import model.Asiakas;
+import model.dao.Dao;
+
+@TestMethodOrder(OrderAnnotation.class)
+class JUnit_testaa_asiakkaat {
+
+	@Test
+	@Order(1)
+	
+	public void testPoistaKaikkiAsiakkaat() {
+		//Poistetaan kaikki Asiakkaat
+		Dao dao = new Dao();
+		dao.poistaKaikkiAsiakkaat("nimda");
+		ArrayList<Asiakas> asiakkaat = dao.listaaKaikki();
+		assertEquals(0, asiakkaat.size());
+	}
+
+	@Test
+	@Order(2)
+	public void testLisaaAsiakas() {
+		Dao dao = new Dao();
+		Asiakas asiakas_1 = new Asiakas("Iines","Ankka","313-313131313","iines.ankka@ankkalinna.us",77);
+		assertEquals(true, dao.lisaaAsiakas(asiakas_1));
+	}
+}
