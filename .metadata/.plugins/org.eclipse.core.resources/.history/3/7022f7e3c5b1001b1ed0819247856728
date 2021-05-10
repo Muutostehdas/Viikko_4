@@ -50,13 +50,13 @@ $(document).ready(function(){
 	//Haetaan muutettavan asiakkaant tiedot. Kutsutaan backin GET-metodia ja välitetään kutsun mukana muutettavan tiedon id
 	//GET /asiakkaat/haeyksi/asiakas_id
 	var asiakas_id = requestURLParam("asiakas_id"); //Funktio löytyy scripts/main.js 	
-	$.ajax({url:"asiakkaat/haeyksi/"+asiakas_id, type:"GET", dataType:"json", success:function(result){	
-		//$("#vanhaasiakas_id").val(result.asiakas_id);
+	$.ajax({url:"asiakkaat/haeyksi/"+etunimi, type:"GET", dataType:"json", success:function(result){	
+		//$("#vanhaasiakas_id").val(result.asiakas_id);		
+		$("#asiakas_id").val(result.asiakas_id);	
 		$("#etunimi").val(result.etunimi);
 		$("#sukunimi").val(result.sukunimi);
 		$("#puhelin").val(result.puhelin);
 		$("#sposti").val(result.sposti);
-		$("#asiakas_id").val(result.asiakas_id);
     }});
 	
 	$("#tiedot").validate({						
@@ -111,7 +111,7 @@ $(document).ready(function(){
       	$("#ilmo").html("Asiakkaan päivittäminen epäonnistui.");
       }else if(result.response==1){			
       	$("#ilmo").html("Asiakkaan päivittäminen onnistui.");
-      	$("#etunimi, #sukunimi, #puhelin, #sposti").val("");
+      	$("#asiakas_id, #etunimi, #sukunimi, #puhelin, #sposti").val("");
 	  }
   }});	
 }

@@ -111,7 +111,7 @@ $(document).ready(function(){
       	$("#ilmo").html("Asiakkaan päivittäminen epäonnistui.");
       }else if(result.response==1){			
       	$("#ilmo").html("Asiakkaan päivittäminen onnistui.");
-      	$("#etunimi, #sukunimi, #puhelin, #sposti").val("");
+      	$("#asiakas_id, #etunimi, #sukunimi, #puhelin, #sposti").val("");
 	  }
   }});	
 }

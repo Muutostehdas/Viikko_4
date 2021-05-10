@@ -141,3 +141,12 @@ toukok. 09, 2021 22:00:45.400
 toukok. 09, 2021 22:00:45.401 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 toukok. 09, 2021 22:00:45.401 
 toukok. 09, 2021 22:44:22.692 [Parent 38424, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+toukok. 09, 2021 23:55:27.540 
+toukok. 09, 2021 23:55:27.546 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 09, 2021 23:55:27.550 
+
+toukok. 10, 2021 23:05:00.495 NEW SESSION
+toukok. 10, 2021 23:05:00.495 [Parent 21824, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+toukok. 10, 2021 23:05:02.116 
+toukok. 10, 2021 23:05:02.118 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+toukok. 10, 2021 23:05:02.121 

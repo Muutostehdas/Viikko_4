@@ -152,17 +152,18 @@ public class Dao {
 		return asiakas;		
 	}
 	
-	public boolean muutaAsiakas(Asiakas asiakas){
+	public boolean muutaAsiakas(Asiakas asiakas,int asiakas_id){
 		boolean paluuArvo=true;
-		sql="UPDATE asiakkaat SET  etunimi=?, sukunimi=?, puhelin=?, sposti=? WHERE asiakas_id=?";						  
+		sql="UPDATE asiakkaat SET asiakas_id=?, etunimi=?, sukunimi=?, puhelin=?, sposti=? WHERE asiakas_id=?";						  
 		try {
 			con = yhdista();
 			stmtPrep=con.prepareStatement(sql);
-			stmtPrep.setString(1, asiakas.getEtunimi());
-			stmtPrep.setString(2, asiakas.getSukunimi());
-			stmtPrep.setString(3, asiakas.getPuhelin());
-			stmtPrep.setString(4, asiakas.getSposti());
-			stmtPrep.setInt(5, asiakas.getAsiakas_id());
+			stmtPrep.setInt(1, asiakas.getAsiakas_id());
+			stmtPrep.setString(2, asiakas.getEtunimi());
+			stmtPrep.setString(3, asiakas.getSukunimi());
+			stmtPrep.setString(4, asiakas.getPuhelin());
+			stmtPrep.setString(5, asiakas.getSposti());
+			stmtPrep.setInt(6, asiakas_id);
 			stmtPrep.executeUpdate();
 	        con.close();
 		} catch (Exception e) {				
